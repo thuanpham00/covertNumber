@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Convert Number</title>
+        <link rel="stylesheet" href="./assets/css/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://kit.fontawesome.com/3115b3f4f1.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Công cụ chuyển đổi thập phân sang nhị phân</h1>
+            <div class="row">
+                <span class="row__desc">Từ</span>
+                <span class="row__desc">Tới</span>
+            </div>
+            <div class="row">
+                <div class="row__type">
+                    <div class="row__text">Thập phân</div>
+                    <div class="row__icon">
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                </div>
+
+                <div class="row__type type-2">
+                    <div class="row__text text-2">Nhị phân</div>
+                    <div class="row__icon">
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="list hidden">
+                <div class="list__item">
+                    <div class="row__text" style="pointer-events: none;">Nhị phân</div>
+                    <div class="row__icon">
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                </div>
+                <div class="list__item">
+                    <div class="row__text" style="pointer-events: none;">Bát phân</div>
+                    <div class="row__icon">
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="container__wrapper">
+                <div class="desc">Nhập số thập phân:</div>
+                <form class="form" autocomplete="off">
+                    <div class="row">
+                        <input
+                            type="text"
+                            class="form__input"
+                            name="numberInput"
+                            required
+                        />
+                        <span>10</span>
+                    </div>
+                    <input type="submit" class="form__submit" value="Đổi" />
+                </form>
+
+                <div class="desc">Số nhị phân:</div>
+                <div class="row">
+                    <div class="result">
+                        <span class="result__inner"></span>
+                    </div>
+                    <span>2</span>
+                </div>
+                <div class="desc">Số bát phân:</div>
+                <div class="row">
+                    <div class="result">
+                        <span class="result__inner inner-2"></span>
+                    </div>
+                    <span>8</span>
+                </div>
+            </div>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
