@@ -165,8 +165,9 @@ button {
   transform: translate(-50%, -50%);
 }
 .container .title {
+  color: #7c7474;
   margin-top: 20px;
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: 500;
 }
 .container .row {
